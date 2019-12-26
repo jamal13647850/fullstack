@@ -1,0 +1,26 @@
+p{margin-left:200px;}
+
+h2#toph1{
+		border-top:10px solid rgb(50,0,156);
+		border-left:10px dotted rgb(250,0,156);
+		height:200px;
+		width: 350px;
+		border-radius:25px;
+		padding: 30px 0 0 150px;
+		
+	}
+body{
+	background-image: url("photo.jpeg") !important;
+		
+}
+/*p{color:#ffffff}*/
+
+h2#he2{text-align:center;}
+
+#mypara{
+	line-height: 2;
+	font-size: 20px;
+	word-spacing: 20px;
+	direction:rtl;
+	text-align: justify;
+}

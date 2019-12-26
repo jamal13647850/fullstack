@@ -1,0 +1,71 @@
+@font-face{
+	font-family: yekan
+	src: url(yekan.woff);
+	font-wight: bold;
+}
+
+p{
+	color:green;
+	font-family: serif, yekan;
+	font-style:italic;
+}
+
+
+a{
+	width:300px;
+	height:200px;
+	color:#ffffff;
+	background-color: green;
+	border:2px solid red;
+	border-radius:5px;
+	font-style:none;
+
+}
+a:hover{
+	color : red;	
+	background-color:rgb(50,150,50);
+}
+
+table th{
+	border: 2px solid #ff00ff;
+	padding: 5px;
+}
+
+table td{
+	border: 2px solid #000000;
+	padding: 5px;
+}
+p{
+
+	/*display : none;*/
+	max-width:200px;
+min-height:300px;
+}
+li{display:inline;}
+
+span{display:block;}
+
+#ptest{
+	visibility:hidden;
+
+}
+div.relative{
+	position:relative;
+	border : 5px dotted red;
+	left:50px;
+}
+
+div.fixed{
+	position:fixed;
+bottom:0;
+right:0;
+width:300px;
+border:3px solid #73ff00;
+}
+
+div.absolute{
+	position:relative;
+	border : 5px dotted yellow;
+	top:50px;
+	left:50px;
+}
