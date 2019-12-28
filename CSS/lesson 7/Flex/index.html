@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>FlexBox!</title>
+    <style>
+	.container{
+		height:80vh;
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		justify-content:space-between;
+		align-items:center;
+
+	}
+
+	.item{
+		width:150px;
+		height:100px;
+		background-color:green;
+		border:3px solid black;
+	}
+	.second{
+		order:1;
+		flex-grow:1;
+	}
+
+	.fourth{
+		order:2;
+		flex-grow:2;
+	}
+    </style>	
+  </head>
+  <body>
+
+
+    <div class='container'>
+	<div class="item">11111111111</div>
+	<div class="item second">22222222222</div>
+	<div class="item">33333333333</div>
+	<div class="item fourth">44444444444</div>
+	
+    </div>
+
+  </body>
+</html>
