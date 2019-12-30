@@ -1,0 +1,70 @@
+overflow
+margin: auto;
+margin: 0 auto
+
+text-align:center'
+
+opacity:0 to 1
+
+css image sprites
+
+[attribute="value"] 
+ 
+[type="checkbox"] 
+
+[attribute~="value"]
+[title~="seo"] 
+
+border-radiuse:50%
+
+background-image: url(address),url(address);
+background-position: right bottom, left top;
+
+
+text-shadow:2px  2px red;
+
+div{
+  left:50px;
+  text-shadow:2px  2px red;
+  transform:rotate(-20deg);
+  -ms-transform:rotate(-20eg);
+  -webkit-transform:rotate(-20deg);
+}
+
+transition:
+
+<div>
+  sdfsdfdsfdsfdsfds
+  </div>
+div{
+  transition: all 5s;
+  transition-delay:2s;
+  font-size:20px;
+  font-weight:bold;
+}
+div:hover{
+  transform:rotate(-20deg);
+  color:red;
+}
+
+-------------------------------
+animatin:
+
+div{
+  animation-name: anim;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  background-color: red;
+  top:0;
+  position:relative;
+}
+
+--------------------------------------
+@media screen and (min-width:480px) and (max-width:600px){
+	body{
+		background-color: red;
+	}
+
+}
